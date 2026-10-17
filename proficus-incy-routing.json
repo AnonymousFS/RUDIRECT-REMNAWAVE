@@ -1,0 +1,28 @@
+{
+  "Name": "PROFICUS RU Direct",
+  "GlobalProxy": "true",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSIP": "77.88.8.8",
+  "DirectSites": [
+    "regexp:(?i)\\.(ru|su|xn--p1ai|рф)$"
+  ],
+  "DirectIp": [
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "127.0.0.0/8",
+    "169.254.0.0/16",
+    "::1/128",
+    "fc00::/7",
+    "fe80::/10"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "AsIs",
+  "FakeDNS": "false"
+}
